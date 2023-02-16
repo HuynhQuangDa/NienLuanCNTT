@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Homeme</title>
+
+    
+    <link rel="stylesheet" href="./main.css">
+
+   
+</head>
+
+<body id="page-top">
+
+    <div id="wrapper">
+
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <a class="sidebar-brand d-flex align-items-center" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <!-- <img src="img/logo.png" class="img-fluid"> -->
+                </div>
+            </a>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="mdi mdi-home-variant-outline"></i>
+                    <span>Home</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="mdi mdi-grid-large"></i>
+                    <span>Explore</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="mdi mdi-bookmark-outline"></i>
+                    <span>Favourities</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="mdi mdi-book-open"></i>
+                    <span>Orders</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link d-flex" href="#">
+                    <i class="mdi mdi-message-text-outline mr-2"></i>
+                    <span>Messages</span>
+                    <span class="rounded-circle bg-white text-primary ml-auto px-2 py-1">2</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="mdi mdi-cog"></i>
+                    <span>Settings</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" 
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Extra Pages</span>
+                </a>
+                
+            </li>
+
+            
+
+            
+
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!--  -->
+        </ul>
+
+
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <div id="content">
+
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow-sm osahan-nav-top">
+
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light" placeholder="Search for..."
+                                            aria-label="Search" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="mdi mdi-magnify"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown no-arrow mx-2 osahan-t-loc">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="modal"
+                                data-target="#addressModal">
+                                <span class="mdi mdi-crosshairs-gps"></span><span class="ml-2">CanTho,
+                                    </span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown no-arrow mx-2 osahan-t-pu">
+                            <a class="nav-link dropdown-toggle text-dark" href="#">
+                                <i class="mdi mdi-shopping text-danger"></i><span class="ml-2">Pick up</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown no-arrow mx-2 osahan-t-bd">
+                            <a class="nav-link dropdown-toggle text-dark" data-toggle="modal"
+                                data-target="#mycoupansModal" href="#">
+                                <i class="mdi mdi-sack-percent text-warning"></i><span class="ml-2">Best Deals</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="ml-auto">
+                        <a href="#">
+                            <form class="d-none d-sm-inline-block form-inline mx-2 my-2 my-md-0 mw-100 navbar-search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control bg-light" placeholder="Search for..."
+                                        aria-label="Search" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">
+                                            <i class="mdi mdi-magnify"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </a>
+                        <!--  -->
+                    </div>
+                </nav>
+
+
+                <div class="container-fluid">
+
+                    <div class="d-flex align-items-center justify-content-between mb-3 mt-2">
+                        <h5 class="mb-0">Explore categories</h5>
+                        <a href="#" class="small font-weight-bold text-dark">See all <i
+                                class="mdi mdi-chevron-right mr-2"></i></a>
+                    </div>
+
+                    <div class="row">
+
+                        <a href="#" class="text-decoration-none col-xl-2 col-md-4 mb-4">
+                            <div class="rounded py-4 bg-white shadow-sm text-center">
+                                <i class="mdi mdi-fire bg-danger text-white osahan-icon mx-auto rounded-pill"></i>
+                                <h6 class="mb-1 mt-3">Popular</h6>
+                                <p class="mb-0 small">286+ options</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="text-decoration-none col-xl-2 col-md-4 mb-4">
+                            <div class="rounded py-4 bg-white shadow-sm text-center">
+                                <i class="mdi mdi-motorbike bg-primary text-white osahan-icon mx-auto rounded-pill"></i>
+                                <h6 class="mb-1 mt-3">Fast Delivery</h6>
+                                <p class="mb-0 small">1,843+ options</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="text-decoration-none col-xl-2 col-md-4 mb-4">
+                            <div class="rounded py-4 bg-white shadow-sm text-center">
+                                <i
+                                    class="mdi mdi-wallet-outline bg-warning text-white osahan-icon mx-auto rounded-pill"></i>
+                                <h6 class="mb-1 mt-3">High class</h6>
+                                <p class="mb-0 small">25+ options</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="text-decoration-none col-xl-2 col-md-4 mb-4">
+                            <div class="rounded py-4 bg-white shadow-sm text-center">
+                                <i
+                                    class="mdi mdi-silverware-variant bg-danger text-white osahan-icon mx-auto rounded-pill"></i>
+                                <h6 class="mb-1 mt-3">Dine in</h6>
+                                <p class="mb-0 small">182+ options</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="text-decoration-none col-xl-2 col-md-4 mb-4">
+                            <div class="rounded py-4 bg-white shadow-sm text-center">
+                                <i
+                                    class="mdi mdi-home-variant-outline bg-primary text-white osahan-icon mx-auto rounded-pill"></i>
+                                <h6 class="mb-1 mt-3">Pick up</h6>
+                                <p class="mb-0 small">3,548+ options</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="text-decoration-none col-xl-2 col-md-4 mb-4">
+                            <div class="rounded py-4 bg-white shadow-sm text-center">
+                                <i
+                                    class="mdi mdi-map-outline bg-warning text-white osahan-icon mx-auto rounded-pill"></i>
+                                <h6 class="mb-1 mt-3">Nearest</h6>
+                                <p class="mb-0 small">44+ options</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mb-3 mt-2">
+                        <h5 class="mb-0">Featured restaurants</h5>
+                        <a href="#" class="small font-weight-bold text-dark">See all <i
+                                class="mdi mdi-chevron-right mr-2"></i></a>
+                    </div>
+
+                    <div class="row">
+
+                        <a href="#" class="text-dark text-decoration-none col-xl-4 col-lg-12 col-md-12">
+                            <div class="bg-white shadow-sm rounded d-flex align-items-center p-1 mb-4 osahan-list">
+                                <div class="bg-light p-3 rounded">
+                                    <img src="img/burgerking.png" class="img-fluid">
+                                </div>
+                                <div class="mx-3 py-2 w-100">
+                                    <p class="mb-2 text-black">Burger King</p>
+                                    <p class="small mb-2">
+                                        <i class="mdi mdi-star text-warning mr-1"></i> <span
+                                            class="font-weight-bold text-dark">0.8</span> (873)
+                                        <i class="mdi mdi-silverware-fork-knife ml-3 mr-1"></i> Burger
+                                        <i class="mdi mdi-currency-inr ml-3"></i> 340/-
+                                    </p>
+                                    <p class="mb-0 text-muted d-flex align-items-center"><span
+                                            class="badge badge-light"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                            delivery</span>
+                                        <span class="small ml-auto"><i class="mdi mdi-map-marker"></i> 0.3 km</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-dark text-decoration-none col-xl-4 col-lg-12 col-md-12">
+                            <div class="bg-white shadow-sm rounded d-flex align-items-center p-1 mb-4 osahan-list">
+                                <div class="bg-light p-3 rounded">
+                                    <img src="img/pizzahut.png" class="img-fluid">
+                                </div>
+                                <div class="mx-3 py-2 w-100">
+                                    <p class="mb-2 text-black">Pizza Hut</p>
+                                    <p class="small mb-2">
+                                        <i class="mdi mdi-star text-warning mr-1"></i> <span
+                                            class="font-weight-bold text-dark">0.5</span> (34)
+                                        <i class="mdi mdi-silverware-fork-knife ml-3 mr-1"></i> Pizza
+                                        <i class="mdi mdi-currency-inr ml-3"></i> 150/-
+                                    </p>
+                                    <p class="mb-0 text-muted d-flex align-items-center"><span
+                                            class="badge badge-info"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                            delivery</span>
+                                        <span class="small ml-auto"><i class="mdi mdi-map-marker"></i> 15 MIN</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-dark text-decoration-none col-xl-4 col-lg-12 col-md-12">
+                            <div class="bg-white shadow-sm rounded d-flex align-items-center p-1 mb-4 osahan-list">
+                                <div class="bg-light p-3 rounded">
+                                    <img src="img/kfc.png" class="img-fluid">
+                                </div>
+                                <div class="mx-3 py-2 w-100">
+                                    <p class="mb-2 text-black">KFC</p>
+                                    <p class="small mb-2">
+                                        <i class="mdi mdi-star text-warning mr-1"></i> <span
+                                            class="font-weight-bold text-dark">0.8</span> (873)
+                                        <i class="mdi mdi-silverware-fork-knife ml-3 mr-1"></i> Burger
+                                        <i class="mdi mdi-currency-inr ml-3"></i> 340/-
+                                    </p>
+                                    <p class="mb-0 text-muted d-flex align-items-center"><span
+                                            class="badge badge-primary"><i class="mdi mdi-wallet-outline"></i>
+                                            Cashback</span>
+                                        <span class="small ml-auto"><i class="mdi mdi-map-marker"></i> 0.3 km</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="row">
+
+                        <a href="#" class="text-dark text-decoration-none col-xl-4 col-lg-12 col-md-12">
+                            <div class="bg-white shadow-sm rounded d-flex align-items-center p-1 mb-4 osahan-list">
+                                <div class="bg-light p-3 rounded">
+                                    <img src="img/macd.png" class="img-fluid">
+                                </div>
+                                <div class="mx-3 py-2 w-100">
+                                    <p class="mb-2 text-black">Mac Donalds</p>
+                                    <p class="small mb-2">
+                                        <i class="mdi mdi-star text-warning mr-1"></i> <span
+                                            class="font-weight-bold text-dark">0.5</span> (223)
+                                        <i class="mdi mdi-silverware-fork-knife ml-3 mr-1"></i> Fires
+                                        <i class="mdi mdi-currency-inr ml-3"></i> 220/-
+                                    </p>
+                                    <p class="mb-0 text-muted d-flex align-items-center"><span
+                                            class="badge badge-light"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                            delivery</span>
+                                        <span class="small ml-auto"><i class="mdi mdi-map-marker"></i> 30 MIN</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-dark text-decoration-none col-xl-4 col-lg-12 col-md-12">
+                            <div class="bg-white shadow-sm rounded d-flex align-items-center p-1 mb-4 osahan-list">
+                                <div class="bg-light p-3 rounded">
+                                    <img src="img/domino.png" class="img-fluid">
+                                </div>
+                                <div class="mx-3 py-2 w-100">
+                                    <p class="mb-2 text-black">Dominos</p>
+                                    <p class="small mb-2">
+                                        <i class="mdi mdi-star text-warning mr-1"></i> <span
+                                            class="font-weight-bold text-dark">0.8</span> (873)
+                                        <i class="mdi mdi-silverware-fork-knife ml-3 mr-1"></i> Pizza
+                                        <i class="mdi mdi-currency-inr ml-3"></i> 340/-
+                                    </p>
+                                    <p class="mb-0 text-muted d-flex align-items-center"><span
+                                            class="badge badge-light"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                            delivery</span>
+                                        <span class="small ml-auto"><i class="mdi mdi-map-marker"></i> 0.3 km</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="text-dark text-decoration-none col-xl-4 col-lg-12 col-md-12">
+                            <div class="bg-white shadow-sm rounded d-flex align-items-center p-1 mb-4 osahan-list">
+                                <div class="bg-light p-3 rounded">
+                                    <img src="img/subway.png" class="img-fluid">
+                                </div>
+                                <div class="mx-3 py-2 w-100">
+                                    <p class="mb-2 text-black">Subway</p>
+                                    <p class="small mb-2">
+                                        <i class="mdi mdi-star text-warning mr-1"></i> <span
+                                            class="font-weight-bold text-dark">0.8</span> (200)
+                                        <i class="mdi mdi-silverware-fork-knife ml-3 mr-1"></i> Sub's
+                                        <i class="mdi mdi-currency-inr ml-3"></i> 400/-
+                                    </p>
+                                    <p class="mb-0 text-muted d-flex align-items-center"><span
+                                            class="badge badge-success"><i class="mdi mdi-ticket-percent-outline"></i>
+                                            55% OFF</span>
+                                        <span class="small ml-auto"><i class="mdi mdi-map-marker"></i> 35 Min</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mb-3 mt-2">
+                        <h5 class="mb-0">Asian food</h5>
+                        <a href="#" class="small font-weight-bold text-dark">See all <i
+                                class="mdi mdi-chevron-right mr-2"></i></a>
+                    </div>
+
+                    <div class="row">
+
+                        <a href="#" class="text-decoration-none col-xl-4 col-md-4 mb-4" data-toggle="modal"
+                            data-target="#myitemsModal">
+                            <img src="img/food1.jpg" class="img-fluid rounded">
+                            <div class="d-flex align-items-center mt-3">
+                                <p class="text-black h6 m-0">Spicy Na Thai Pizza</p>
+                                <span class="badge badge-light ml-auto"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                    delivery</span>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none col-xl-4 col-md-4 mb-4" data-toggle="modal"
+                            data-target="#myitemsModal">
+                            <img src="img/food2.jpg" class="img-fluid rounded">
+                            <div class="d-flex align-items-center mt-3">
+                                <p class="text-black h6 m-0">Special Burger</p>
+                                <span class="badge badge-light ml-auto"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                    delivery</span>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none col-xl-4 col-md-4 mb-4" data-toggle="modal"
+                            data-target="#myitemsModal">
+                            <img src="img/food3.jpg" class="img-fluid rounded">
+                            <div class="d-flex align-items-center mt-3">
+                                <p class="text-black h6 m-0">Tandoori</p>
+                                <span class="badge badge-light ml-auto"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                    delivery</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="row">
+
+                        <a href="#" class="text-decoration-none col-xl-4 col-md-4 mb-4" data-toggle="modal"
+                            data-target="#myitemsModal">
+                            <img src="img/food4.jpg" class="img-fluid rounded">
+                            <div class="d-flex align-items-center mt-3">
+                                <p class="text-black h6 m-0">Special Thali</p>
+                                <span class="badge badge-light ml-auto"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                    delivery</span>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none col-xl-4 col-md-4 mb-4" data-toggle="modal"
+                            data-target="#myitemsModal">
+                            <img src="img/food5.jpg" class="img-fluid rounded">
+                            <div class="d-flex align-items-center mt-3">
+                                <p class="text-black h6 m-0">Diet Food</p>
+                                <span class="badge badge-light ml-auto"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                    delivery</span>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none col-xl-4 col-md-4 mb-4" data-toggle="modal"
+                            data-target="#myitemsModal">
+                            <img src="img/food6.jpg" class="img-fluid rounded">
+                            <div class="d-flex align-items-center mt-3">
+                                <p class="text-black h6 m-0">Sandwich</p>
+                                <span class="badge badge-light ml-auto"><i class="mdi mdi-truck-fast-outline"></i> Free
+                                    delivery</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>HuynhQuangDa &copy;2023</span>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+    
+</body>
+
+
+</html>
